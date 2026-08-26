@@ -167,10 +167,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260930405766959856, guid: 2e8ea873fa73697409583aebcca054bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e4a09b934a7f342e6aabfb68c8d45045, type: 2}
     - target: {fileID: -2747575886087953853, guid: 2e8ea873fa73697409583aebcca054bd, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1206534670363569730, guid: 2e8ea873fa73697409583aebcca054bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e4a09b934a7f342e6aabfb68c8d45045, type: 2}
     - target: {fileID: 836567838908739434, guid: 2e8ea873fa73697409583aebcca054bd, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -179,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: One_Blackfairs_Skyscraper
       objectReference: {fileID: 0}
+    - target: {fileID: 2215586215214866668, guid: 2e8ea873fa73697409583aebcca054bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e4a09b934a7f342e6aabfb68c8d45045, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
