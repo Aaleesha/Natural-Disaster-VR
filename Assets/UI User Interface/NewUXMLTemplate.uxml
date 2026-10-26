@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; -unity-text-align: middle-left; margin-bottom: 3px;">
+        <ui:Label text="VR Safety Training" style="font-size: 50px; -unity-text-align: upper-center; margin-top: 19px;"/>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; -unity-text-align: middle-center;">
+        <ui:Button text="Start"/>
+        <ui:Button text="Settings"/>
+        <ui:Button text="Exit"/>
+    </ui:VisualElement>
+</ui:UXML>
