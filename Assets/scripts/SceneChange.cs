@@ -8,6 +8,7 @@ public class SceneChange : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            Debug.Log("Print");
             SceneManager.LoadScene("StairCase");
         }
     }
