@@ -5912,11 +5912,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 664489801923019586, guid: 2fd3e07afe5b461490fb8e314976b1b0, type: 3}
       propertyPath: m_HapticSelectEnterDuration
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 664489801923019586, guid: 2fd3e07afe5b461490fb8e314976b1b0, type: 3}
       propertyPath: m_HapticSelectEnterIntensity
-      value: 0.15
+      value: 0.631
       objectReference: {fileID: 0}
     - target: {fileID: 664489801923019586, guid: 2fd3e07afe5b461490fb8e314976b1b0, type: 3}
       propertyPath: m_PlayHapticsOnSelectEntered
