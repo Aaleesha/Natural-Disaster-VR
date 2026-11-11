@@ -1,10 +1,11 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/buttonstyle.uss?fileID=7433441132597879392&amp;guid=b7ad32139898241f086c696528b0adf6&amp;type=3#buttonstyle"/>
     <ui:VisualElement style="flex-grow: 1; -unity-text-align: middle-left; margin-bottom: 3px;">
         <ui:Label text="VR Safety Training" style="font-size: 50px; -unity-text-align: upper-center; margin-top: 19px;"/>
     </ui:VisualElement>
     <ui:VisualElement style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; -unity-text-align: middle-center;">
-        <ui:Button text="Start"/>
-        <ui:Button text="Settings"/>
-        <ui:Button text="Exit"/>
+        <ui:Button text="Start" class="buttonstyle"/>
+        <ui:Button text="Settings" class="buttonstyle"/>
+        <ui:Button text="Exit" class="buttonstyle"/>
     </ui:VisualElement>
 </ui:UXML>
