@@ -1,11 +1,7 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/buttonstyle.uss?fileID=7433441132597879392&amp;guid=b7ad32139898241f086c696528b0adf6&amp;type=3#buttonstyle"/>
     <ui:VisualElement style="flex-grow: 1; -unity-text-align: middle-left; margin-bottom: 3px; color: rgb(255, 255, 255);">
-        <ui:Label text="VR Safety Training" style="font-size: 50px; -unity-text-align: upper-center; margin-top: 19px;"/>
+        <ui:Label text="WELCOME TO FIRE SAFETY TRAINING&#10;&#10;Welcome to your workplace fire emergency training simulation.&#10;&#10;You are currently inside an office building, working at your designated workstation when an unexpected fire breaks out. Your computer and surrounding workspace have caught fire, and the situation is rapidly becoming unsafe.&#10;&#10;Your priority is to remain calm, respond appropriately, and evacuate the building safely.&#10;&#10;Throughout this simulation, you will learn how to identify fire hazards, respond to an emergency, operate a fire extinguisher, and navigate towards the nearest emergency exit." style="font-size: 15px; -unity-text-align: upper-center; margin-top: 19px;"/>
     </ui:VisualElement>
-    <ui:VisualElement style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; -unity-text-align: middle-center;">
-        <ui:Button text="Start" class="buttonstyle"/>
-        <ui:Button text="Settings" class="buttonstyle"/>
-        <ui:Button text="Exit" class="buttonstyle"/>
-    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; -unity-text-align: middle-center;"/>
 </ui:UXML>

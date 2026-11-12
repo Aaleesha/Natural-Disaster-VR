@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 255, 255);">
+        <ui:Label text="YOUR OBJECTIVES&#10;- Recognise the fire emergency and assess the situation.&#10;- Understand the correct response to a workplace fire.&#10;- Learn how to operate a fire extinguisher safely, if it is appropriate to do so.&#10;- Identify emergency exits and evacuation routes.&#10;- Evacuate the building without putting yourself or others at risk.&#10;&#10;REMEMBER&#10;&#10;Your safety comes first.&#10; Never put yourself in danger to control a fire.&#10; If the fire is spreading, the smoke is heavy, or you are unsure whether &#10;It is safe to intervene, evacuate immediately and alert emergency services.&#10;&#10;Stay alert. Act responsibly. Exit safely."/>
+    </ui:VisualElement>
+</ui:UXML>
