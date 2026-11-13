@@ -202,7 +202,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &33125492
 Transform:
@@ -1825,21 +1825,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8829451551789304542, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
   m_PrefabInstance: {fileID: 1696958917}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &270503998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!198 &270504002 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8829451551789304536, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
+  m_PrefabInstance: {fileID: 1696958917}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270503997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6841104c4445a04f875ff17f335d537, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FireExtinguisherTarget
-  fireParticles: []
-  fireVisuals: {fileID: 270503997}
---- !u!65 &270503999
+--- !u!4 &270504003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8829451551789304537, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
+  m_PrefabInstance: {fileID: 1696958917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &270504004
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1854,12 +1850,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.1223598, y: 0.64798355, z: 2.5370865}
-  m_Center: {x: 0.65397507, y: -0.016093422, z: -0.21955872}
+  m_Size: {x: 2.7497902, y: 0.54674435, z: 2.5370865}
+  m_Center: {x: 0.3402605, y: -0.06671533, z: -0.21955872}
 --- !u!1 &277706751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,52 +2027,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4649372153920182415, guid: 964d019e82327ae41878ec0410f5d5e0, type: 3}
   m_PrefabInstance: {fileID: 280278365}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &286720610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 286720612}
-  - component: {fileID: 286720611}
-  m_Layer: 0
-  m_Name: BurstCollisionWorld
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &286720611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286720610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1a161c4294214a4fbcb7e9e94800494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Obi::Obi.BurstColliderWorld
-  cellSpans:
-    m_AlignBytes: 16
---- !u!4 &286720612
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286720610}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &321373636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4376,12 +4326,13 @@ GameObject:
   - component: {fileID: 695274117}
   - component: {fileID: 695274116}
   - component: {fileID: 695274115}
+  - component: {fileID: 695274118}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!199 &695274115
 ParticleSystemRenderer:
@@ -8049,7 +8000,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     type: 1
     collisionMode: 0
@@ -8236,16 +8187,16 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
-    inside: 1
+    inside: 2
     outside: 0
     enter: 0
     exit: 0
     colliderQueryMode: 0
     radiusScale: 1
     primitives:
-    - {fileID: 0}
+    - {fileID: 270504003}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -9213,6 +9164,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1541749821}
   m_LocalEulerAnglesHint: {x: -92, y: 90, z: 90}
+--- !u!114 &695274118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695274114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319e9982ab675994683ebe42fb5c8801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterFireInteraction
+  fireParticles: {fileID: 270504002}
+  extinguishDuration: 5
 --- !u!1001 &697577241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11591,7 +11556,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1080601204
 MonoBehaviour:
@@ -11757,6 +11722,10 @@ PrefabInstance:
     - target: {fileID: 153368037517725869, guid: 2c9bde03419a3c94984481bccd499e1d, type: 3}
       propertyPath: m_Name
       value: RightHandPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450180190111032066, guid: 2c9bde03419a3c94984481bccd499e1d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8978622798063104541, guid: 2c9bde03419a3c94984481bccd499e1d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14138,7 +14107,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1515449422
 Transform:
@@ -14396,7 +14365,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!65 &1520076494
 BoxCollider:
@@ -14763,7 +14732,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1541749821
 Transform:
@@ -15029,7 +14998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireExtinguisherSpray
   sprayParticles: {fileID: 695274116}
-  fireTarget: {fileID: 270503998}
+  fireTarget: {fileID: 0}
   requiredTime: 5
   collisionGracePeriod: 0.2
 --- !u!4 &1547330593 stripped
@@ -16362,10 +16331,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8829451551789304542, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 270503999}
-    - targetCorrespondingSourceObject: {fileID: 8829451551789304542, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 270503998}
+      addedObject: {fileID: 270504004}
   m_SourcePrefab: {fileID: 100100000, guid: e91fa0fac941e714e8c4d5709097019f, type: 3}
 --- !u!1 &1701242311
 GameObject:
@@ -17942,6 +17908,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4592253504152099484, guid: a07dffe36c92aec44a95c900438af993, type: 3}
   m_PrefabInstance: {fileID: 1983119326}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1994018261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994018263}
+  - component: {fileID: 1994018262}
+  m_Layer: 0
+  m_Name: BurstCollisionWorld
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1994018262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994018261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a161c4294214a4fbcb7e9e94800494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Obi::Obi.BurstColliderWorld
+  cellSpans:
+    m_AlignBytes: 16
+--- !u!4 &1994018263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994018261}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1995863061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18198,7 +18210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6359099844320469721, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_Name
@@ -18206,19 +18218,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5467270803125962544, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5938272088306273736, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7961720834477660844, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8629810120203852069, guid: c3b7af7bd631dc949aac166b2d39e8fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19436,6 +19448,10 @@ PrefabInstance:
     - target: {fileID: 2455991917536569172, guid: 740efd9ea0c79cc4e96071511b809da0, type: 3}
       propertyPath: m_Name
       value: LeftHandPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3341238646564873670, guid: 740efd9ea0c79cc4e96071511b809da0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23228,4 +23244,4 @@ SceneRoots:
   - {fileID: 552193142}
   - {fileID: 1186310976}
   - {fileID: 1701242313}
-  - {fileID: 286720612}
+  - {fileID: 1994018263}
