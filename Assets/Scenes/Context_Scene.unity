@@ -2734,7 +2734,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_InputActionReferencePerformed: {fileID: -2439264783773714294, guid: b6d5c44ebe3244b7692e81ae8265eb22, type: 3}
+    m_InputActionReferencePerformed: {fileID: 0}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
@@ -2882,8 +2882,8 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_InputActionReferencePerformed: {fileID: -2439264783773714294, guid: b6d5c44ebe3244b7692e81ae8265eb22, type: 3}
-    m_InputActionReferenceValue: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_InputActionReferenceValue: {fileID: -5908353012961274365, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
     m_ManualValue: 0
@@ -2904,7 +2904,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
       m_Priority: 0
-    m_InputActionReference: {fileID: 0}
+    m_InputActionReference: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
   m_TranslateManipulationInput:
@@ -4646,7 +4646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
-  m_IgnoreReversedGraphics: 0
+  m_IgnoreReversedGraphics: 1
   m_CheckFor2DOcclusion: 0
   m_CheckFor3DOcclusion: 0
   m_BlockingMask:
