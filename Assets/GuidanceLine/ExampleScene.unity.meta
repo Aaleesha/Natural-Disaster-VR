@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0d3b35fdc22bf4ca8980af003687378a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303873
+  packageName: Guidance Line
+  packageVersion: 1.0.0
+  assetPath: Assets/GuidanceLine/ExampleScene.unity
+  uploadId: 716538
