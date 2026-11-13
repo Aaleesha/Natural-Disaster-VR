@@ -13,8 +13,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotation",
@@ -23,8 +22,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Is Tracked",
@@ -33,8 +31,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Tracking State",
@@ -43,8 +40,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Eye Gaze Position",
@@ -53,8 +49,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Eye Gaze Rotation",
@@ -63,8 +58,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Eye Gaze Is Tracked",
@@ -73,8 +67,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Eye Gaze Tracking State",
@@ -83,8 +76,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -343,8 +335,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotation",
@@ -353,8 +344,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Is Tracked",
@@ -363,8 +353,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Tracking State",
@@ -373,8 +362,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Haptic Device",
@@ -383,8 +371,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Aim Position",
@@ -393,8 +380,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Aim Rotation",
@@ -403,8 +389,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Meta Aim Flags",
@@ -413,8 +398,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Pinch Position",
@@ -423,8 +407,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Poke Position",
@@ -433,8 +416,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Poke Rotation",
@@ -443,8 +425,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grip Position",
@@ -453,8 +434,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grip Rotation",
@@ -463,8 +443,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Thumbstick",
@@ -473,8 +452,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -898,8 +876,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Select Value",
@@ -908,8 +885,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Activate",
@@ -918,8 +894,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Activate Value",
@@ -928,8 +903,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "UI Press",
@@ -938,8 +912,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "UI Press Value",
@@ -948,8 +921,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "UI Scroll",
@@ -958,8 +930,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "InvertVector2(invertY=false)",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Translate Manipulation",
@@ -968,8 +939,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotate Manipulation",
@@ -978,8 +948,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Manipulation",
@@ -988,8 +957,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Scale Toggle",
@@ -998,8 +966,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Scale Over Time",
@@ -1008,8 +975,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1072,6 +1038,17 @@
                     "name": "",
                     "id": "87d9a1e7-704b-43bb-be2a-f2d8ecfde8b7",
                     "path": "<KHRSimpleController>{LeftHand}/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c365a3c-09b9-4d19-bb7e-94847ad5db0e",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1334,8 +1311,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Teleport Mode Cancel",
@@ -1344,8 +1320,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Turn",
@@ -1354,8 +1329,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Snap Turn",
@@ -1364,8 +1338,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Move",
@@ -1374,8 +1347,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grab Move",
@@ -1384,8 +1356,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1468,8 +1439,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotation",
@@ -1478,8 +1448,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Is Tracked",
@@ -1488,8 +1457,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Tracking State",
@@ -1498,8 +1466,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Haptic Device",
@@ -1508,8 +1475,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Aim Position",
@@ -1518,8 +1484,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Aim Rotation",
@@ -1528,8 +1493,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Meta Aim Flags",
@@ -1538,8 +1502,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Pinch Position",
@@ -1548,8 +1511,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Poke Position",
@@ -1558,8 +1520,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Poke Rotation",
@@ -1568,8 +1529,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grip Position",
@@ -1578,8 +1538,7 @@
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grip Rotation",
@@ -1588,8 +1547,7 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Thumbstick",
@@ -1598,8 +1556,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -2023,8 +1980,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Select Value",
@@ -2033,8 +1989,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Activate",
@@ -2043,8 +1998,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Activate Value",
@@ -2053,8 +2007,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "UI Press",
@@ -2063,8 +2016,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "UI Press Value",
@@ -2073,8 +2025,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "UI Scroll",
@@ -2083,8 +2034,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "InvertVector2(invertY=false)",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Translate Manipulation",
@@ -2093,8 +2043,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Rotate Manipulation",
@@ -2103,8 +2052,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Manipulation",
@@ -2113,8 +2061,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Scale Toggle",
@@ -2123,8 +2070,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Scale Over Time",
@@ -2133,28 +2079,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
-                },
-                {
-                    "name": "UI Mode Activate",
-                    "type": "Button",
-                    "id": "bbe33eb0-10f2-45fb-8222-3d209afb2e48",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
-                },
-                {
-                    "name": "mouseclick",
-                    "type": "Button",
-                    "id": "13ae5afc-ce8b-496b-b158-26b9e6b269c0",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -2465,28 +2390,6 @@
                     "action": "Translate Manipulation",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "89cedb8d-f763-4673-ae40-3e096dac9750",
-                    "path": "<XRController>{RightHand}/triggerPressed",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UI Mode Activate",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bf229490-c0ae-4fac-850d-ba322f1bc9aa",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "mouseclick",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -2501,8 +2404,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Teleport Mode Cancel",
@@ -2511,8 +2413,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Turn",
@@ -2521,8 +2422,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Snap Turn",
@@ -2531,8 +2431,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Move",
@@ -2541,8 +2440,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Grab Move",
@@ -2551,8 +2449,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Jump",
@@ -2561,8 +2458,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -2656,8 +2552,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Submit",
@@ -2666,8 +2561,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Cancel",
@@ -2676,8 +2570,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Point",
@@ -2686,8 +2579,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Click",
@@ -2696,8 +2588,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "ScrollWheel",
@@ -2706,8 +2597,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "MiddleClick",
@@ -2716,8 +2606,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 },
                 {
                     "name": "RightClick",
@@ -2726,8 +2615,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -3129,8 +3017,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Drag Start Position",
@@ -3139,8 +3026,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Drag Current Position",
@@ -3149,8 +3035,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Drag Delta",
@@ -3159,8 +3044,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Pinch Start Position",
@@ -3169,8 +3053,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Pinch Gap",
@@ -3179,8 +3062,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Pinch Gap Delta",
@@ -3189,8 +3071,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Twist Start Position",
@@ -3199,8 +3080,7 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Twist Delta Rotation",
@@ -3209,8 +3089,7 @@
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Screen Touch Count",
@@ -3219,8 +3098,7 @@
                     "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Spawn Object",
@@ -3229,8 +3107,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -3530,6 +3407,94 @@
                     "action": "Spawn Object",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "CustomHandAnimations",
+            "id": "3873b00b-90b3-4b9f-b523-384eee023dfe",
+            "actions": [
+                {
+                    "name": "LeftGrip",
+                    "type": "Value",
+                    "id": "bf0934bb-29e6-49de-b60b-a886d2b2c46a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftTrigger",
+                    "type": "Value",
+                    "id": "72bac5b5-04db-4ac8-91ae-5bac2f5ac82a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightGrip",
+                    "type": "Value",
+                    "id": "f15f0a57-e486-4483-86d7-4f0d979a1647",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTrigger",
+                    "type": "Value",
+                    "id": "de1fd616-5263-4072-917e-8de70691368e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "431d4a87-202b-4739-bf50-7b04c36143cd",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99b9fb26-ab68-4629-a2b0-cb4b37313077",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3157be93-1b40-4f78-8567-3f56c738baed",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9493f56-4f99-4d66-8e30-75edfc9de4c4",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

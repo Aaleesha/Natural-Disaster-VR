@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class HandTrigger : MonoBehaviour
 {
@@ -10,7 +12,12 @@ public class HandTrigger : MonoBehaviour
     public static int hitCounter; 
     public AudioClip glassHitOne;
     public AudioClip glassHitTwo;
-    
+
+    public XRGrabInteractable fireExtinguisherPinInteractable;  // Pin
+
+    public GameObject myImage; //ui image
+
+
     void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Hands"))
@@ -28,9 +35,14 @@ public class HandTrigger : MonoBehaviour
             {
                 Debug.Log("Breaking.....");
                 brokenGlass.SetActive(true);
-                nonBrokenGlass.SetActive(false);
+                
                 glassShatteredAudio.PlayOneShot(glassShatteredAudioClip);
+                fireExtinguisherPinInteractable.enabled = true;
+                myImage.SetActive(true);       // Enable UI Image for Pin Remove
+                nonBrokenGlass.SetActive(false);
             }
         }
     }
+
+   
 }

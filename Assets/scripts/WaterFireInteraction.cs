@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class WaterFireInteraction : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class WaterFireInteraction : MonoBehaviour
     private float contactTimer = 0f;
     private bool touchingFire = false;
     private bool fireExtinguished = false;
+
+    public XRGrabInteractable fireExtinguisherInteractable;     // Fire Extinguisher
 
     void Awake()
     {
@@ -69,5 +72,11 @@ public class WaterFireInteraction : MonoBehaviour
         fireParticles.gameObject.SetActive(false);
 
         Debug.Log("Fire Extinguished!");
+    }
+
+    public void FireExtinguisherGrabbable()
+    {
+        fireExtinguisherInteractable.enabled = true;
+        //Enable FIre UI
     }
 }
