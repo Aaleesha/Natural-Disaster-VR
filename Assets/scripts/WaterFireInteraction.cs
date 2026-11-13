@@ -19,6 +19,7 @@ public class WaterFireInteraction : MonoBehaviour
     private bool fireExtinguished = false;
 
     public XRGrabInteractable fireExtinguisherInteractable;     // Fire Extinguisher
+    public GameObject mySecondImage; //ui image
 
     void Awake()
     {
@@ -77,6 +78,6 @@ public class WaterFireInteraction : MonoBehaviour
     public void FireExtinguisherGrabbable()
     {
         fireExtinguisherInteractable.enabled = true;
-        //Enable FIre UI
+         mySecondImage.SetActive(true);  //Enable FIre UI
     }
 }
