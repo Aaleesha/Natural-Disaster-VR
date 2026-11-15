@@ -56458,6 +56458,7 @@ struct FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951  : p
 {
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___waterParticleSystem;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___presserTransform;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___spraySound;
 	bool ___isGrabbed;
 	bool ___isPinRemoved;
 	bool ___isPressed;

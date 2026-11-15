@@ -2664,6 +2664,7 @@ struct FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951  : p
 {
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___waterParticleSystem;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___presserTransform;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___spraySound;
 	bool ___isGrabbed;
 	bool ___isPinRemoved;
 	bool ___isPressed;
@@ -7173,7 +7174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_Start_m3907CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:20>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:24>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___waterParticleSystem;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7184,7 +7185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_Start_m3907CB
 		}
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:22>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:26>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___waterParticleSystem;
 		NullCheck(L_2);
 		ParticleSystem_Stop_m2D8D4967496EF0F5BFEF679C49A9E65A9646C423(L_2, NULL);
@@ -7192,7 +7193,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_Start_m3907CB
 
 IL_0019:
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:24>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:29>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___spraySound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:31>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___spraySound;
+		NullCheck(L_5);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_5, NULL);
+	}
+
+IL_0032:
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:33>
 		return;
 	}
 }
@@ -7200,9 +7220,9 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_OnGrabbed_m56793F6DFCCE16379E58081BCA0F9E1BE5FF91E8 (FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:29>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:37>
 		__this->___isGrabbed = (bool)1;
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:30>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:38>
 		return;
 	}
 }
@@ -7210,11 +7230,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_OnGrabbed_m56
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_OnReleased_m665DF5B8DE73ABACB8D00A7CE062156756A1248B (FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:35>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:42>
 		__this->___isGrabbed = (bool)0;
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:36>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:43>
 		FireExtinguisherController_StopWaterFlow_mA7D0246A9E0983D21EF43B2362A1D2853A23AF1D(__this, NULL);
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:37>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:44>
 		return;
 	}
 }
@@ -7222,12 +7242,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_OnReleased_m6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_SetPresserActive_m6AF2619D932DEC58786EA2358679A72F64B76C86 (FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951* __this, bool ___0_pressed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:42>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:48>
 		bool L_0 = ___0_pressed;
 		__this->___isPressed = L_0;
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:43>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:49>
 		FireExtinguisherController_EvaluateWaterFlow_m3DB845A7A8163290AAA641977B6E1EA1E855BDB2(__this, NULL);
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:44>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:50>
 		return;
 	}
 }
@@ -7235,11 +7255,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_SetPresserAct
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_RemovePin_mB7357FD0F7BD5604A73B257F82B79CDB660922C1 (FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:49>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:54>
 		__this->___isPinRemoved = (bool)1;
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:50>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:55>
 		FireExtinguisherController_EvaluateWaterFlow_m3DB845A7A8163290AAA641977B6E1EA1E855BDB2(__this, NULL);
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:51>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:56>
 		return;
 	}
 }
@@ -7253,36 +7273,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_EvaluateWater
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:56>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:61>
 		bool L_0 = __this->___isGrabbed;
 		if (!L_0)
 		{
-			goto IL_003f;
+			goto IL_0065;
 		}
 	}
 	{
 		bool L_1 = __this->___isPinRemoved;
 		if (!L_1)
 		{
-			goto IL_003f;
+			goto IL_0065;
 		}
 	}
 	{
 		bool L_2 = __this->___isPressed;
 		if (!L_2)
 		{
-			goto IL_003f;
+			goto IL_0065;
 		}
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:58>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:63>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = __this->___waterParticleSystem;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_4)
 		{
-			goto IL_0045;
+			goto IL_003e;
 		}
 	}
 	{
@@ -7292,26 +7312,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_EvaluateWater
 		L_6 = ParticleSystem_get_isPlaying_mC5170DA3C904670B88200C8DA1E0F8FC1BC7C42B(L_5, NULL);
 		if (L_6)
 		{
-			goto IL_0045;
+			goto IL_003e;
 		}
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:60>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:65>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_7 = __this->___waterParticleSystem;
 		NullCheck(L_7);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_7, NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:68>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___spraySound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___spraySound;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_10, NULL);
+		if (L_11)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:70>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___spraySound;
+		NullCheck(L_12);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_12, NULL);
 		return;
 	}
 
-IL_003f:
+IL_0065:
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:65>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:75>
 		FireExtinguisherController_StopWaterFlow_mA7D0246A9E0983D21EF43B2362A1D2853A23AF1D(__this, NULL);
 	}
 
-IL_0045:
+IL_006b:
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:67>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:77>
 		return;
 	}
 }
@@ -7325,7 +7374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_StopWaterFlow
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:71>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:81>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___waterParticleSystem;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7346,7 +7395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_StopWaterFlow
 		}
 	}
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:73>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:83>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___waterParticleSystem;
 		NullCheck(L_4);
 		ParticleSystem_Stop_m2D8D4967496EF0F5BFEF679C49A9E65A9646C423(L_4, NULL);
@@ -7354,7 +7403,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController_StopWaterFlow
 
 IL_0026:
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:75>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:86>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___spraySound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___spraySound;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:88>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = __this->___spraySound;
+		NullCheck(L_9);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_9, NULL);
+	}
+
+IL_004c:
+	{
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:90>
 		return;
 	}
 }
@@ -7362,7 +7440,7 @@ IL_0026:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherController__ctor_m240277D2740B376C23DD123169B44D4131DA4213 (FireExtinguisherController_tA70A9A9F42963783AE97AED1945E269AF3AF4951* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:14>
+		//<source_info:/Users/aaleeshasawhney/Documents/GitHub/Natural-Disaster-VR/Natural Disaster Unity/Assets/scripts/FireExtinguisherController.cs:18>
 		__this->___isPinRemoved = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
