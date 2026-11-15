@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class FireExtinguisherController : MonoBehaviour
@@ -9,41 +10,45 @@ public class FireExtinguisherController : MonoBehaviour
     [Tooltip("The Presser/Handle transform from your hierarchy")]
     public Transform presserTransform;
 
+    [Tooltip("Drag the extinguisher spraying Audio Source here")]
+    public AudioSource spraySound;
+
     [Header("States")]
     private bool isGrabbed = false;
-    private bool isPinRemoved = true;  // Set to false if you want a pin-pulling mechanic first
+    private bool isPinRemoved = true;
     private bool isPressed = false;
 
     void Start()
     {
-        // Ensure water starts stopped
+        // Ensure water and sound start stopped
         if (waterParticleSystem != null)
         {
             waterParticleSystem.Stop();
         }
+
+        if (spraySound != null)
+        {
+            spraySound.Stop();
+        }
     }
 
-    // Hook this up to XR Grab Interactable -> OnSelectEntered (Event)
     public void OnGrabbed()
     {
         isGrabbed = true;
     }
 
-    // Hook this up to XR Grab Interactable -> OnSelectExited (Event)
     public void OnReleased()
     {
         isGrabbed = false;
         StopWaterFlow();
     }
 
-    // Call this method when the user presses the interaction button for the handle
     public void SetPresserActive(bool pressed)
     {
         isPressed = pressed;
         EvaluateWaterFlow();
     }
 
-    // Call this if you implement a mechanic to pull the safety pin
     public void RemovePin()
     {
         isPinRemoved = true;
@@ -52,12 +57,17 @@ public class FireExtinguisherController : MonoBehaviour
 
     void EvaluateWaterFlow()
     {
-        // Water flows only if grabbed, pin is out, and handle is pressed
+        // Water and sound work only when all conditions are met
         if (isGrabbed && isPinRemoved && isPressed)
         {
             if (waterParticleSystem != null && !waterParticleSystem.isPlaying)
             {
                 waterParticleSystem.Play();
+            }
+
+            if (spraySound != null && !spraySound.isPlaying)
+            {
+                spraySound.Play();
             }
         }
         else
@@ -71,6 +81,11 @@ public class FireExtinguisherController : MonoBehaviour
         if (waterParticleSystem != null && waterParticleSystem.isPlaying)
         {
             waterParticleSystem.Stop();
+        }
+
+        if (spraySound != null && spraySound.isPlaying)
+        {
+            spraySound.Stop();
         }
     }
 }
